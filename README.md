@@ -30,6 +30,8 @@ Checked in Postman(get url /count-by).
 
 ### Postman Collection
 
+https://documenter.getpostman.com/view/23789220/2s8YRgsaY8
+
 ~~~~
 {
 	"info": {
