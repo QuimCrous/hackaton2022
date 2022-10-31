@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "dfcad23f-9f41-4de9-84cc-ce65898f4f22",
+		"name": "hackaton2022",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23789220"
+	},
+	"item": [
+		{
+			"name": "Get All Companies request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/all-companies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"all-companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Companies grouped and ordered by size",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/by-size",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"by-size"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Companies grouped by founded",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/get-companies-by-founded",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"get-companies-by-founded"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Count of Companies group by Industry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/count-by?type=industry",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"count-by"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "industry"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Count of Companies group by Size",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/count-by?type=size",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"count-by"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "size"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Count of Companies group by founded",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/count-by?type=founded",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"count-by"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "founded"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
